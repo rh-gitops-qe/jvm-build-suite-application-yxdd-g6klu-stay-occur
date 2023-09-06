@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-bays
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rh-gitops-bot/jvm-build-amuh-tenant/jvm-build-suite-application-yxdd/jvm-build-suite-component-bays@sha256:5341d0d5eab2c61a88a6a1c26d1d0d283a22a2305d420c4632cfa256c65feaca
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
